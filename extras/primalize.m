@@ -63,8 +63,8 @@ if isempty(model)
 	  diagnostic.problem,diagnostic.info);
   else
     error("export failed: model is empty");
-  endif
-endif
+  end
+end
 
 Fdual = ([]);
 xvec = [];

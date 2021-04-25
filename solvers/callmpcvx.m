@@ -26,9 +26,6 @@ function output = callmpcvx(p)
 % bmibnb.maxiter        - Maximum number of solved nodes [int (100)]
 % bmibnb.maxtime        - Maximum CPU time (sec.) [int (3600)]
 
-% Author Johan Lofberg 
-% $Id: callmpcvx.m,v 1.2 2005-05-07 13:53:20 joloef Exp $
-
 % ********************************
 % INITIALIZE DIAGNOSTICS IN YALMIP
 % ********************************

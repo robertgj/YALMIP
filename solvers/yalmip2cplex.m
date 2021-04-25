@@ -1,7 +1,5 @@
 function [model,nonlinearremain] = yalmip2cplex(interfacedata)
 
-% Author Johan Lofberg
-
 % Retrieve needed data
 options = interfacedata.options;
 F_struc = interfacedata.F_struc;

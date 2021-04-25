@@ -1,4 +1,4 @@
-function output = callpenbmim(interfacedata);
+function output = callpenbmim(interfacedata)
 
 if any(interfacedata.variabletype > 2)
     % Polynomial problem, YALMIP has to bilienarize
